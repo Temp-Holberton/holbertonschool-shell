@@ -13,3 +13,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `6-firstdirectory`: Creates a directory named `my_first_directory` in the `/tmp/` directory using `mkdir`.
 * `7-movethatfile`: Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory/` using `mv`.
 * `8-firstdelete`: Deletes the file `betty` from `/tmp/my_first_directory/` using `rm`.
+* `9-firstdirdeletion`: Deletes the directory `my_first_directory` from `/tmp/` using `rmdir`.
