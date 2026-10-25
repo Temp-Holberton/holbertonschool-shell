@@ -19,3 +19,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `12-file_type`: Prints the type of the file `/tmp/iamafile` using `file`.
 * `13-symbolic_link`: Creates a symbolic link named `__ls__` pointing to `/bin/ls` using `ln -s`.
 * `14-copy_html`: Copies all `.html` files to the parent directory only if they are newer or don't exist using `cp -u *.html ..`.
+* `15-lets_move`: Moves all files beginning with an uppercase letter to `/tmp/u` using `mv [A-Z]* /tmp/u`.
