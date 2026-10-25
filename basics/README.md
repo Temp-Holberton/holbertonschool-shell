@@ -12,3 +12,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `5-listfilesdigitonly`: Displays current directory contents in long format, including hidden files, with numeric user and group IDs using `ls -lan`.
 * `6-firstdirectory`: Creates a directory named `my_first_directory` in the `/tmp/` directory using `mkdir`.
 * `7-movethatfile`: Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory/` using `mv`.
+* `8-firstdelete`: Deletes the file `betty` from `/tmp/my_first_directory/` using `rm`.
