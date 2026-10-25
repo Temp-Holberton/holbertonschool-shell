@@ -16,3 +16,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `9-firstdirdeletion`: Deletes the directory `my_first_directory` from `/tmp/` using `rmdir`.
 * `10-back`: Changes the working directory to the previous one using `cd -`.
 * `11-lists`: Lists hidden files in long format for the current directory, parent directory, and `/boot` using `ls -la . .. /boot`.
+* `12-file_type`: Prints the type of the file `/tmp/iamafile` using `file`.
