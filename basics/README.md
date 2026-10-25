@@ -14,3 +14,5 @@ This directory contains shell scripts for basic Linux system commands.
 * `7-movethatfile`: Moves the file `betty` from `/tmp/` to `/tmp/my_first_directory/` using `mv`.
 * `8-firstdelete`: Deletes the file `betty` from `/tmp/my_first_directory/` using `rm`.
 * `9-firstdirdeletion`: Deletes the directory `my_first_directory` from `/tmp/` using `rmdir`.
+* `10-back`: Changes the working directory to the previous one using `cd -`.
+* `11-lists`: Lists hidden files in long format for the current directory, parent directory, and `/boot` using `ls -la . .. /boot`.
