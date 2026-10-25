@@ -18,3 +18,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `11-lists`: Lists hidden files in long format for the current directory, parent directory, and `/boot` using `ls -la . .. /boot`.
 * `12-file_type`: Prints the type of the file `/tmp/iamafile` using `file`.
 * `13-symbolic_link`: Creates a symbolic link named `__ls__` pointing to `/bin/ls` using `ln -s`.
+* `14-copy_html`: Copies all `.html` files to the parent directory only if they are newer or don't exist using `cp -u *.html ..`.
