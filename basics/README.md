@@ -21,3 +21,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `14-copy_html`: Copies all `.html` files to the parent directory only if they are newer or don't exist using `cp -u *.html ..`.
 * `15-lets_move`: Moves all files beginning with an uppercase letter to `/tmp/u` using `mv [A-Z]* /tmp/u`.
 * `16-clean_emacs`: Deletes all files in the current working directory ending with `~` using `rm *~`.
+* `17-tree`: Creates the nested directory structure `welcome/to/school` using `mkdir -p`.
