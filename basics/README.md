@@ -10,3 +10,4 @@ This directory contains shell scripts for basic Linux system commands.
 * `3-listfiles`: Displays current directory contents in a long format using `ls -l`.
 * `4-listmorefiles`: Displays current directory contents, including hidden files, in a long format using `ls -la`.
 * `5-listfilesdigitonly`: Displays current directory contents in long format, including hidden files, with numeric user and group IDs using `ls -lan`.
+* `6-firstdirectory`: Creates a directory named `my_first_directory` in the `/tmp/` directory using `mkdir`.
