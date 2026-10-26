@@ -20,3 +20,4 @@ This directory contains shell scripts focused on Linux file permissions, user sw
 * `13-change_group`: Changes the group owner to fht efile `hello` to `school` using `chgrp school hello`.
 * `14-change_owner_and_group`: Changes the owner to `vincent` and group owner to `staff` for all files and directories in the working directory using `chown -R vincent:staff .`.
 * `15-symbolic_link_permissions`: Changes the owner and group owner of the symbolic link `_hello` to `vincent` and `staff` using `chown -h vincent:staff _hello`.
+* `16-if_only`: Changes the owner of the file `hello` to `vincent` only if it is owned by `guillaume` using `chown --from=guillaume vincent hello`.
