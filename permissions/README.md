@@ -16,3 +16,4 @@ This directory contains shell scripts focused on Linux file permissions, user sw
 * `9-John_Doe`: Sets the mode of the file `hello` to `-rwxr-x-wx` using `chmod 753 hello`.
 * `10-mirror_permissions`: Sets the mode of the file `hello` to match `olleh` using `chmod --reference=olleh hello`.
 * `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others using `chmod a+x */`.
+* `12-directory_permissions`: Creates a directory called `my_dir` with permissions `751` using `mkdir -m 751 my_dir`.
