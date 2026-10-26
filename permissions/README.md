@@ -15,3 +15,4 @@ This directory contains shell scripts focused on Linux file permissions, user sw
 * `8-James_Bond`: Sets file permissions on `hello` so the owner and group have no permissions, and others have full permissions using `chmod 007 hello`.
 * `9-John_Doe`: Sets the mode of the file `hello` to `-rwxr-x-wx` using `chmod 753 hello`.
 * `10-mirror_permissions`: Sets the mode of the file `hello` to match `olleh` using `chmod --reference=olleh hello`.
+* `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others using `chmod a+x */`.
