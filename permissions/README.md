@@ -12,3 +12,4 @@ This directory contains shell scripts focused on Linux file permissions, user sw
 * `5-execute`: Adds execute permission to the owner of the file `hello` using `chmod u+x hello`.
 * `6-multiple_permissions`: Adds execute permission to the owner and group owner, and read permission to others on the file `hello` using `chmod u+x,g+x,o+r hello`.
 * `7-everybody`: Adds execute permission to the owner, group owner, and other users on the file `hello` using `chmod a+x hello`.
+* `8-James_Bond`: Sets file permissions on `hello` so the owner and group have no permissions, and others have full permissions using `chmod 007 hello`.
