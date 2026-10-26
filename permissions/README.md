@@ -18,3 +18,4 @@ This directory contains shell scripts focused on Linux file permissions, user sw
 * `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others using `chmod a+x */`.
 * `12-directory_permissions`: Creates a directory called `my_dir` with permissions `751` using `mkdir -m 751 my_dir`.
 * `13-change_group`: Changes the group owner to fht efile `hello` to `school` using `chgrp school hello`.
+* `14-change_owner_and_group`: Changes the owner to `vincent` and group owner to `staff` for all files and directories in the working directory using `chown -R vincent:staff .`.
