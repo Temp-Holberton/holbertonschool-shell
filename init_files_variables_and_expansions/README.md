@@ -9,3 +9,4 @@
 - `6-create_local_variable`: Creates a local variable named `BEST` with the value `School`.
 - `7-create_global_variable`: Creates a global (exported) environment variable named `BEST` with the value `School`.
 - `8-true_knowledge`: Prints the result of 128 plus the value of the `TRUEKNOWLEDGE` environment variable.
+- `9-divide_and_rule`: Prints the result of the environment variable `POWER` divided by `DIVIDE`.
