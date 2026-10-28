@@ -15,3 +15,4 @@ Linux I/O redirections, pipes, and filters scripts.
 - `8-cwd_state`: Write the current directory listing (ls -la) into a file named ls_cwd_content.
 - `9-duplicate_last_line`: Duplicate the last line of the file iacta.
 - `10-no_more_js`: Delete all regular files with a .js extension in the current directory and all subfolders.
+- `11-directories`: Count the number of directories and sub-directories in the current directory, excluding current and parent directories, including hidden ones.
