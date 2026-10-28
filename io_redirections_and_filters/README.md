@@ -17,3 +17,4 @@ Linux I/O redirections, pipes, and filters scripts.
 - `10-no_more_js`: Delete all regular files with a .js extension in the current directory and all subfolders.
 - `11-directories`: Count the number of directories and sub-directories in the current directory, excluding current and parent directories, including hidden ones.
 - `12-newest_files`: Display the 10 newest files in the current directory, one per line, sorted from newest to oldest.
+- `13-unique`: Display only words that appear exactly once from input, sorted alphabetically.
