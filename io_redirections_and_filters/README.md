@@ -10,3 +10,4 @@ Linux I/O redirections, pipes, and filters scripts.
 - `3-twofiles`: Display content of `/etc/passwd` and `/etc/hosts`.
 - `4-lastlines`: Display the last 10 lines of `/etc/passwd`.
 - `5-firstlines`: Display the first 10 lines of `/etc/passwd`.
+- `6-third_line`: Display the third line of `iacta`.
