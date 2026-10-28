@@ -17,3 +17,7 @@ This directory contains shell scripts focused on Linux file permissions, user sw
 * `10-mirror_permissions`: Sets the mode of the file `hello` to match `olleh` using `chmod --reference=olleh hello`.
 * `11-directories_permissions`: Adds execute permission to all subdirectories of the current directory for owner, group, and others using `chmod a+x */`.
 * `12-directory_permissions`: Creates a directory called `my_dir` with permissions `751` using `mkdir -m 751 my_dir`.
+* `13-change_group`: Changes the group owner to fht efile `hello` to `school` using `chgrp school hello`.
+* `14-change_owner_and_group`: Changes the owner to `vincent` and group owner to `staff` for all files and directories in the working directory using `chown -R vincent:staff .`.
+* `15-symbolic_link_permissions`: Changes the owner and group owner of the symbolic link `_hello` to `vincent` and `staff` using `chown -h vincent:staff _hello`.
+* `16-if_only`: Changes the owner of the file `hello` to `vincent` only if it is owned by `guillaume` using `chown --from=guillaume vincent hello`.
