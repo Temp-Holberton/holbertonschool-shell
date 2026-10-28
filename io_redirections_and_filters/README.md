@@ -14,3 +14,4 @@ Linux I/O redirections, pipes, and filters scripts.
 - `7-file`: Create a file with a specific special-character filename containing "Best School".
 - `8-cwd_state`: Write the current directory listing (ls -la) into a file named ls_cwd_content.
 - `9-duplicate_last_line`: Duplicate the last line of the file iacta.
+- `10-no_more_js`: Delete all regular files with a .js extension in the current directory and all subfolders.
