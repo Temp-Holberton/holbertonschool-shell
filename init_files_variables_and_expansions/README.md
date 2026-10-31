@@ -17,3 +17,4 @@
 - `14-decimal_to_hexadecimal`: Converts a decimal number stored in the `DECIMAL` environment variable to hexadecimal (lowercase).
 - `15-rot13`: Encodes and decodes text using the rot13 encryption.
 - `16-odd`: Prints every other line from the input, starting with the first line.
+- `16-odd`: Prints every other line from the input, starting with the first line.
