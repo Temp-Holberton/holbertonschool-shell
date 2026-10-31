@@ -15,3 +15,4 @@
 - `12-combinations`: Prints all possible combinations of two lowercase letters from `a` to `z`, excluding `oo`.
 - `13-print_float`: Prints the number stored in the `NUM` environment variable formatted to two decimal places.
 - `14-decimal_to_hexadecimal`: Converts a decimal number stored in the `DECIMAL` environment variable to hexadecimal (lowercase).
+- `15-rot13`: Encodes and decodes text using the rot13 encryption.
